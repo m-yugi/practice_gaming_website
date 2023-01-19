@@ -1,0 +1,29 @@
+doctype html
+html
+    head
+        title=hello
+    style
+        include style.css
+    body
+        nav
+            ul
+                li #[a(href="/" target="_blank") home]
+                li #[a(href="/" target="_blank") about]
+                li #[a(href="/" target="_blank") games]
+                li #[a(href="/" target="_blank") download]
+                li #[a(href="/contact" target="_blank") contact us]
+        section#welcomepart
+            div This is one place for all your gaming needs 
+            div.small eat, sleep, game, repeat
+        section#servicespart
+            div.intro games we support
+            div.cards
+                div#card1.val
+                    h2.game #[a(href='https://playvalorant.com/en-us/' target="_blank") valorant]
+                div#card1.lol
+                    h2.game #[a(href='https://www.leagueoflegends.com/en-us/' target="_blank") leauge of legends]
+                div#card1.csgo
+                    h2.game #[a(href='https://blog.counter-strike.net/' target="_blank") csgo]
+                div#card1.gta
+                    h2.game #[a(href='https://www.rockstargames.com/gta-v' target="_blank") gta V]
+        footer copyright by @sai 
