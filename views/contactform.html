@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="contact1_style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/" target="_blank">home</a></li>
+            <li><a href="/" target="_blank">about</a></li>
+            <li><a href="/" target="_blank">games</a></li>
+            <li><a href="/" target="_blank">download</a></li>
+            <li><a href="/views/contactform.html" target="_blank">contact us</a></li>
+        </ul>
+    </nav>
+    <form action="/contact" method="POST">
+            <input type="text" class ="inputs" id="name" name="name" placeholder="please enter your name">
+            <input type="text" class ="inputs" id="age" name="age" placeholder="please enter your age">
+            <input type="text" class ="inputs" id="gender" name="gender" placeholder="please enter your gender">
+            <input type="email" class ="inputs" id="email" name="email" placeholder="please enter your email">
+            <input type="submit" class ="btn">
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Josefin+Sans&family=Kanit:wght@300&family=Silkscreen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://img.freepik.com/free-vector/teenager-boy-bedroom-interior-computers-desk_107791-2738.jpg?w=1380&t=st=1666177878~exp=1666178478~hmac=f53d734b72c9e553db01920a13a3c8f52676418ae5ab20e9da4a5ac785fc268d");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 764px;
+}
+/* nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; 
+} */
+ul {
+  background-color: #000000e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+li {
+  /* background-color: black; */
+  list-style: none;
+  padding: 13px 59px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Silkscreen", cursive;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+.inputs {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  outline: none;
+  width: 411px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  width: 106px;
+  outline: none;
+  margin: 19px;
+}
