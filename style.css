@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Josefin+Sans&family=Kanit:wght@300&family=Silkscreen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; 
+} */
+ul {
+  background-color: #000000e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+li {
+  /* background-color: black; */
+  list-style: none;
+  padding: 13px 59px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Silkscreen", cursive;
+}
+#welcomepart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Alkalami", serif; */
+  /* font-family: "Silkscreen", cursive; */
+  height: 420px;
+  background-color: darkorchid;
+  background: url("/images/bg.jpg") center/cover no-repeat;
+}
+#welcomepart div {
+  color: white;
+  font-size: 3rem;
+}
+#welcomepart div.small {
+  font-size: 1.8rem;
+}
+#servicespart {
+  height: 420px;
+  background-color: #000000c4;
+}
+#servicespart div.intro {
+  color: white;
+  padding: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 26px;
+}
+#servicespart div.cards {
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+}
+#servicespart div#card1 {
+  text-align: center;
+  margin-top: 13px;
+  height: 312px;
+  width: 16%;
+  border-radius: 5px;
+}
+#servicespart div#card1.val {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("/images/val.jpg") center/cover no-repeat;
+  background-color: white;
+  border: 2px solid white;
+  color: white;
+}
+#servicespart div#card1.val h2.game {
+  opacity: 0.6;
+  margin-top: 251px;
+}
+#servicespart div#card1.lol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("/images/lol.jpg") center/cover no-repeat;
+  background-color: white;
+  border: 2px solid white;
+  color: white;
+}
+#servicespart div#card1.lol h2.game {
+  opacity: 0.9;
+  margin-top: 240px;
+}
+#servicespart div#card1.csgo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("/images/csgo.jpg") center/cover no-repeat;
+  background-color: white;
+  border: 2px solid white;
+  color: white;
+}
+#servicespart div#card1.csgo h2.game {
+  margin-top: 240px;
+}
+#servicespart div#card1.gta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("/images/gta.jpg") center/cover no-repeat;
+  background-color: white;
+  border: 2px solid white;
+  color: white;
+}
+#servicespart div#card1.gta h2.game {
+  margin-top: -197px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  height: 60px;
+}

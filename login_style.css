@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Josefin+Sans&family=Kanit:wght@300&family=Noto+Sans+Wancho&family=Silkscreen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Noto Sans Wancho", sans-serif;
+}
+body {
+  background: url("/images/login_page_bg.jpg");
+  background-size: cover;
+}
+#icon {
+  color: rgb(107, 133, 200);
+  background-color: rgb(185, 196, 211);
+  padding: 37px 147px 37px 152px;
+  font-size: 68px;
+  border-radius: 10px;
+}
+input {
+  background: none;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 2px solid rgb(51, 61, 85);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-left: 58px;
+}
+h3 {
+  margin-top: 34px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 57px;
+  padding-top: 0px;
+  margin-top: 116px;
+  width: 253px;
+  margin-left: 320px;
+  background-color: rgba(38, 39, 59, 0.83);
+  padding-bottom: 0px;
+}
+.label {
+  margin: 10px;
+}
+.main_login {
+  margin: 36px;
+}
+.btn {
+  color: green;
+  width: 239px;
+  margin-left: 5px;
+  height: 47px;
+  font-size: 1.3rem;
+  margin-top: 28px;
+  background-color: rgb(160, 170, 248);
+  color: rgb(53, 62, 104);
+  border-radius: 5px;
+}
